@@ -1,0 +1,11 @@
+#include<stdio.h>
+main()
+{
+	int x=2,y=5,n;
+	while(y!=0)
+	{
+		n*=x;
+		y--;
+	}
+	printf("answer=%d",n);
+}
