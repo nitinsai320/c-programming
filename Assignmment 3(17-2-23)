@@ -1,0 +1,11 @@
+#include<stdio.h>
+main ()
+{
+	int i=1,n;
+	scanf("%d",&n);
+	table:
+		printf("%d*%d=%d\n",n,i,n*i);
+		i++;
+		if(i<=10)
+		goto table;
+}
