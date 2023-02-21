@@ -1,0 +1,18 @@
+#include<stdio.h>
+main ()
+{
+	int temp,n,sum=0,r;
+	printf("enter the value of n\n");
+	scanf("%d",&n);
+	temp=n;
+	while(n>0)
+	{
+	r=n%10;
+	sum=sum+(r*r*r);
+	n=n/10;
+    }
+    if(sum==temp)
+     printf("Armstong Number");
+	 else
+	 printf("Not a armstong Number");	
+}
