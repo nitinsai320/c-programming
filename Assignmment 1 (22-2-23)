@@ -1,0 +1,12 @@
+#include<stdio.h>
+main ()
+{
+	int r=10,n=1,even;
+	scanf("%d",&n);
+	while(n<=r)
+	{
+	if(n%2==0)
+	printf("even=%d\n",n);
+	n++;
+	}
+} 
